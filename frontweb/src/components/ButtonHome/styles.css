@@ -1,0 +1,92 @@
+.btn-home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.btn-home-card {
+  background-color: #ededed;
+  border-radius: 10px;
+}
+
+.btn-home-content-container {
+  padding: 0px 60px;
+}
+
+.btn-home-content-container button {
+  height: 10px;
+  padding: 5px 20px 20px 20px;
+  margin: 30px 40px 30px 5px;
+  background-color: #00285f;
+  border-radius: 5px;
+}
+
+.btn-home-content-container p {
+  text-align: left;
+  font-size: 10px;
+  color: #fff;
+}
+
+.btn-home-content-container span {
+  color: #585858;
+  font-size: 12px;
+  padding: 0px 0px 12px 0px;
+  margin: 5px 5px 5px -25px;
+}
+
+@media (min-width: 576px) {
+  .btn-home-content-container p {
+    font-size: 1em;
+  }
+
+  .btn-home-content-container button {
+    padding: 10px 40px 30px 40px;
+  }
+
+  .btn-home-content-container span {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-home-content-container p {
+    font-size: 1.2em;
+  }
+
+  .btn-home-content-container button {
+    padding: 10px 40px 35px 40px;
+  }
+
+  .btn-home-content-container span {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-home-content-container p {
+    font-size: 1.5em;
+  }
+
+  .btn-home-content-container button {
+    padding: 10px 40px 40px 40px;
+  }
+
+  .btn-home-content-container span {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 1280px) {
+  .btn-home-content-container p {
+    font-size: 1.8em;
+  }
+
+  .btn-home-content-container button {
+    padding: 10px 40px 45px 40px;
+  }
+
+  .btn-home-content-container span {
+    font-size: 1.8em;
+  }
+}
