@@ -1,0 +1,15 @@
+.btn-buy-container button {
+  height: 30px;
+  width: 140px;
+  padding: 5px 20px;
+  margin: 10px;
+  background-color: #00285f;
+  border-radius: 5px;
+}
+
+.btn-buy-container p {
+  color: #fff;
+  font-style: normal;
+  align-items: center;
+  margin: 0px 20px;
+}

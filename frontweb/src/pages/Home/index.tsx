@@ -1,15 +1,14 @@
 import { ReactComponent as MainImage } from 'assets/images/car-header.svg';
 import ButtonHome from 'components/ButtonHome';
-import Navbar from 'components/Navbar';
+import { Link } from 'react-router-dom';
 
 import './styles.css';
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       <div className="home-container">
-        <div className="home-card">
+        <div className="base-card home-card">
           <div className="home-content-container">
             <h1>O carro perfeito para você</h1>
             <p>
@@ -23,7 +22,9 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <ButtonHome />
+        <Link to="/products">
+          <ButtonHome />
+        </Link>
       </div>
     </>
   );

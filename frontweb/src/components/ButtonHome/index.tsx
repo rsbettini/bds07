@@ -5,7 +5,7 @@ const ButtonHome = () => {
     <div className="btn-home-container">
       <div className="btn-home-card">
         <div className="btn-home-content-container">
-          <button>
+          <button className='btn'>
             <p>VER CATÁLOGO</p>
           </button>
           <span>Comece agora a navegar</span>
